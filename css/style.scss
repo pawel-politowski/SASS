@@ -39,3 +39,17 @@ main {
         }
     }
 }
+
+input[type=submit] {
+    border: 1px solid $secondaryColor;
+    background: $primaryColor;
+    padding: 1em;
+    margin: .5em;
+}
+
+#name, #email {
+    @extend input[type=submit];
+    &::placeholder {
+        color: black;
+    }
+}

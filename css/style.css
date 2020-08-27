@@ -47,4 +47,27 @@ main .info p {
   font-size: 0.7em;
   padding-bottom: 1.5em;
 }
+
+input[type=submit], #name, #email {
+  border: 1px solid #582c00;
+  background: #aa5500;
+  padding: 1em;
+  margin: .5em;
+}
+
+#name::-webkit-input-placeholder, #email::-webkit-input-placeholder {
+  color: black;
+}
+
+#name:-ms-input-placeholder, #email:-ms-input-placeholder {
+  color: black;
+}
+
+#name::-ms-input-placeholder, #email::-ms-input-placeholder {
+  color: black;
+}
+
+#name::placeholder, #email::placeholder {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
