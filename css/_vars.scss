@@ -1,5 +1,13 @@
 $primaryColor: #aa5500;
+$secondaryColor: #582c00;
 $backgroundColor: #101030;
 $standardPadding: 1.5em;
 $headingFontSize: 1.5em;
 $hoverHeadingFontSize: 2em;
+
+@mixin bottomBorder() {
+    border-bottom: 4px solid $secondaryColor;
+    border-left: 1px solid $secondaryColor;
+    border-right: 1px solid $secondaryColor;
+    border-top: 1px solid $secondaryColor;
+}

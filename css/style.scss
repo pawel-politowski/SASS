@@ -14,6 +14,9 @@ header {
         color: $primaryColor;
         font-size: $headingFontSize;
         transition: all .3s linear;
+
+        @include bottomBorder(); 
+
         &:hover {
             font-size: $hoverHeadingFontSize;
         }
@@ -28,6 +31,8 @@ main {
         text-align: center;
         font-size: $headingFontSize;
         box-sizing: border-box;
+
+        @include bottomBorder();
         p {
             font-size: 0.7em;
             padding-bottom: $standardPadding;
