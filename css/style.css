@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  color: #aa5500;
+  background: #101030;
+  padding: 1.5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

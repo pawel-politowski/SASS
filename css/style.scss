@@ -1,2 +1,17 @@
 $primaryColor: #aa5500;
 $backgroundColor: #101030;
+$standardPadding: 1.5em;
+$headingFontSize: 1.2em;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    color: $primaryColor;
+    background: $backgroundColor;
+    padding: $standardPadding;
+    font-size: $headingFontSize;
+    text-align: center;
+}
