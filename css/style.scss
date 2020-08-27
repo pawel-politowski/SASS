@@ -1,17 +1,40 @@
 $primaryColor: #aa5500;
 $backgroundColor: #101030;
 $standardPadding: 1.5em;
-$headingFontSize: 1.2em;
+$headingFontSize: 1.5em;
+$hoverHeadingFontSize: 2em;
 
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-    color: $primaryColor;
+header {    
     background: $backgroundColor;
+    padding: $standardPadding;    
+    text-align: center;    
+    h1 {
+        color: $primaryColor;
+        font-size: $headingFontSize;
+        transition: all .3s linear;
+        &:hover {
+            font-size: $hoverHeadingFontSize;
+        }
+    }        
+}
+
+main {
+    background: $primaryColor;
     padding: $standardPadding;
-    font-size: $headingFontSize;
-    text-align: center;
+    .info {
+        color: white;
+        text-align: center;
+        font-size: $headingFontSize;
+        box-sizing: border-box;
+        p {
+            font-size: 0.7em;
+            padding-bottom: $standardPadding;
+        }
+    }
 }

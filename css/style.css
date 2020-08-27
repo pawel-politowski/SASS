@@ -1,13 +1,42 @@
 body {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
-  color: #aa5500;
   background: #101030;
   padding: 1.5em;
-  font-size: 1.2em;
   text-align: center;
+}
+
+header h1 {
+  color: #aa5500;
+  font-size: 1.5em;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+header h1:hover {
+  font-size: 2em;
+}
+
+main {
+  background: #aa5500;
+  padding: 1.5em;
+}
+
+main .info {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .info p {
+  font-size: 0.7em;
+  padding-bottom: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
