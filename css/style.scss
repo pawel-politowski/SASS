@@ -1,8 +1,4 @@
-$primaryColor: #aa5500;
-$backgroundColor: #101030;
-$standardPadding: 1.5em;
-$headingFontSize: 1.5em;
-$hoverHeadingFontSize: 2em;
+@import '_vars.scss';
 
 body {
     padding: 0;
