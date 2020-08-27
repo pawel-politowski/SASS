@@ -5,9 +5,9 @@ $standardPadding: 1.5em;
 $headingFontSize: 1.5em;
 $hoverHeadingFontSize: 2em;
 
-@mixin bottomBorder() {
-    border-bottom: 4px solid $secondaryColor;
-    border-left: 1px solid $secondaryColor;
-    border-right: 1px solid $secondaryColor;
-    border-top: 1px solid $secondaryColor;
+@mixin bottomBorder($bottom: 5px, $other: 1px, $color: $secondaryColor) {
+    border-bottom: $bottom solid $color;
+    border-left: $other solid $color;
+    border-right: $other solid $color;
+    border-top: $other solid $color;
 }

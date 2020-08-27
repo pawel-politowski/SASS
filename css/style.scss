@@ -32,7 +32,7 @@ main {
         font-size: $headingFontSize;
         box-sizing: border-box;
 
-        @include bottomBorder();
+        @include bottomBorder(10px, 5px, #0033aa);
         p {
             font-size: 0.7em;
             padding-bottom: $standardPadding;
