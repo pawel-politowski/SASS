@@ -13,7 +13,7 @@ header {
     h1 {
         color: $primaryColor;
         font-size: $headingFontSize;
-        transition: all .3s linear;
+        transition: all .2s linear;
 
         @include bottomBorder(); 
 
